@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Gradle suite" duration-ms="23389" started-at="2020-03-05T12:28:24Z" finished-at="2020-03-05T12:28:47Z">
+    <groups>
+    </groups>
+    <test name="Gradle test" duration-ms="23389" started-at="2020-03-05T12:28:24Z" finished-at="2020-03-05T12:28:47Z">
+      <class name="com.dk.ui.TestOrder">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.dk.ui.TestOrder@12c91b0f]" name="beforeSuite" is-config="true" duration-ms="14" started-at="2020-03-05T12:28:24Z" finished-at="2020-03-05T12:28:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.dk.ui.TestOrder@12c91b0f]" name="beforeMethod" is-config="true" duration-ms="12084" started-at="2020-03-05T12:28:24Z" finished-at="2020-03-05T12:28:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="failedPaymentFlow(java.util.HashMap)[pri:0, instance:com.dk.ui.TestOrder@12c91b0f]" name="failedPaymentFlow" duration-ms="8435" started-at="2020-03-05T12:28:36Z" data-provider="failedPaymentFlowData" finished-at="2020-03-05T12:28:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{cardCvv=123, cardNumber=4811111111111113, cardExpiryDate=02/21, bankOTP=112233}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedPaymentFlow -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.dk.ui.TestOrder@12c91b0f]" name="afterMethod" is-config="true" duration-ms="2845" started-at="2020-03-05T12:28:44Z" finished-at="2020-03-05T12:28:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.dk.ui.TestOrder -->
+    </test> <!-- Gradle test -->
+  </suite> <!-- Gradle suite -->
+</testng-results>

@@ -83,7 +83,7 @@ public class CreditCardPage extends BasePage {
             driver.findElement(By.xpath("//iframe[contains(@src,'https://api.sandbox.veritrans.co.id/v2/token/rba/redirect')]"));
             Assert.fail("Unexpected, Payment page is open");
         } catch (NoSuchElementException e) {
-            System.out.println("Payment page is not open");
+            System.out.println("As expected, Payment page is not open");
         }
         driver.switchTo().defaultContent();
     }

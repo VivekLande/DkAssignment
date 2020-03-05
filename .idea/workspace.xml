@@ -2,12 +2,45 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="77997b08-33de-493d-8659-d957b5bdafa4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/drivers/geckodriver.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/dk/ui/CreditCardPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/dk/ui/CreditCardPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/dk/ui/TestOrder.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/dk/ui/TestOrder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/dk/ui/TestOrder.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/dk/ui/TestOrder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/run/Gradle suite/Gradle test.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/run/Gradle suite/Gradle test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/run/Gradle suite/Gradle test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/run/Gradle suite/Gradle test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/run/Gradle suite/testng-failed.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/run/classes/com.dk.ui.TestOrder.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/run/classes/com.dk.ui.TestOrder.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/run/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/run/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/run/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/run/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/run/junitreports/TEST-com.dk.ui.TestOrder.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/run/junitreports/TEST-com.dk.ui.TestOrder.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/run/old/Gradle suite/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/run/old/Gradle suite/methods-alphabetical.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/run/old/Gradle suite/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/run/old/Gradle suite/methods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/run/old/Gradle suite/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/run/old/Gradle suite/toc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/run/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/run/old/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/run/packages/com.dk.ui.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/run/packages/com.dk.ui.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/run/testng-failed.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/run/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/run/testng-results.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/run/TEST-com.dk.ui.TestOrder.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/run/TEST-com.dk.ui.TestOrder.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/run/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/run/binary/output.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/run/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/run/binary/output.bin.idx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/run/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/run/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project.properties" beforeDir="false" afterPath="$PROJECT_DIR$/project.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dk/base/DriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dk/base/DriverManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/dk/ui/CreditCardPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dk/ui/CreditCardPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dk/ui/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dk/ui/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dk/ui/PaymentConfirmationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dk/ui/PaymentConfirmationPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/dk/testdata/TestOrderData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/dk/testdata/TestOrderData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/dk/ui/TestOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/dk/ui/TestOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dk/utils/ProjectProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dk/utils/ProjectProperties.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +77,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+    <property name="add_unversioned_files" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/drivers" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -54,6 +88,7 @@
       <recent name="com.dk" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\projects\DkAssignment\src\main\resources\drivers" />
       <recent name="C:\projects\DkAssignment\src\main\resources" />
     </key>
   </component>
@@ -127,25 +162,25 @@
       <screen x="1920" y="0" width="2048" height="1112" />
     </state>
     <state x="2284" y="530" width="916" height="582" key="#xdebugger.evaluate/0.0.1536.824/1920.0.2048.1112@1920.0.2048.1112" timestamp="1583400754544" />
-    <state width="2005" height="706" key="GridCell.Tab.0.bottom" timestamp="1583409291228">
+    <state width="2005" height="706" key="GridCell.Tab.0.bottom" timestamp="1583411335168">
       <screen x="1920" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="706" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.2048.1112@1920.0.2048.1112" timestamp="1583409291228" />
+    <state width="2005" height="706" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.2048.1112@1920.0.2048.1112" timestamp="1583411335168" />
     <state width="2005" height="360" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1583392658750" />
-    <state width="2005" height="706" key="GridCell.Tab.0.center" timestamp="1583409291228">
+    <state width="2005" height="706" key="GridCell.Tab.0.center" timestamp="1583411335168">
       <screen x="1920" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="706" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.2048.1112@1920.0.2048.1112" timestamp="1583409291228" />
+    <state width="2005" height="706" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.2048.1112@1920.0.2048.1112" timestamp="1583411335168" />
     <state width="2005" height="360" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1583392658749" />
-    <state width="2005" height="706" key="GridCell.Tab.0.left" timestamp="1583409291227">
+    <state width="2005" height="706" key="GridCell.Tab.0.left" timestamp="1583411335168">
       <screen x="1920" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="706" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.2048.1112@1920.0.2048.1112" timestamp="1583409291227" />
+    <state width="2005" height="706" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.2048.1112@1920.0.2048.1112" timestamp="1583411335168" />
     <state width="2005" height="360" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1583392658749" />
-    <state width="2005" height="706" key="GridCell.Tab.0.right" timestamp="1583409291228">
+    <state width="2005" height="706" key="GridCell.Tab.0.right" timestamp="1583411335168">
       <screen x="1920" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="706" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.2048.1112@1920.0.2048.1112" timestamp="1583409291228" />
+    <state width="2005" height="706" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.2048.1112@1920.0.2048.1112" timestamp="1583411335168" />
     <state width="2005" height="360" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1583392658749" />
     <state width="2005" height="367" key="GridCell.Tab.1.bottom" timestamp="1583401836249">
       <screen x="1920" y="0" width="2048" height="1112" />
@@ -167,5 +202,9 @@
       <screen x="1920" y="0" width="2048" height="1112" />
     </state>
     <state width="1031" height="563" key="XDebugger.FullValuePopup/0.0.1536.824/1920.0.2048.1112@1920.0.2048.1112" timestamp="1583394626773" />
+    <state x="2607" y="243" width="672" height="678" key="search.everywhere.popup" timestamp="1583410383050">
+      <screen x="1920" y="0" width="2048" height="1112" />
+    </state>
+    <state x="2607" y="243" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/1920.0.2048.1112@1920.0.2048.1112" timestamp="1583410383050" />
   </component>
 </project>

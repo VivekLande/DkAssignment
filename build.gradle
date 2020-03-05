@@ -36,6 +36,8 @@ task run(type: Test) {
         useTestNG() {
             options.setConfigFailurePolicy 'skip'
             useDefaultListeners = true
+            outputDirectory = file("$projectDir/AutomationReport")
         }
+        reports.html.setDestination(file("$projectDir/GradleReport"))
     }
 }

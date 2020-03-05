@@ -1,0 +1,41 @@
+plugins {
+    id 'java'
+}
+
+group 'com.dk'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile group: 'io.rest-assured', name: 'rest-assured', version: '3.3.0'
+    compile group: 'org.testng', name: 'testng', version: '6.14.3'
+    compile group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '3.141.59'
+}
+
+
+sourceSets {
+    main {
+        java {
+            srcDirs = ['src/main/java', 'src/test/java']
+        }
+        resources {
+            srcDirs = ['src/main/resources', 'src/test/resources']
+        }
+    }
+}
+
+task run(type: Test) {
+    testLogging {
+        exceptionFormat = 'full'
+        events "passed", "skipped", "failed", "standard_out"//, "standard_out" "started",
+        useTestNG() {
+            options.setConfigFailurePolicy 'skip'
+            useDefaultListeners = true
+        }
+    }
+}

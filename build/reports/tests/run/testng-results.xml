@@ -2,39 +2,38 @@
 <testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Gradle suite" duration-ms="24944" started-at="2020-03-05T11:09:09Z" finished-at="2020-03-05T11:09:34Z">
+  <suite name="Gradle suite" duration-ms="78177" started-at="2020-03-05T11:50:19Z" finished-at="2020-03-05T11:51:37Z">
     <groups>
     </groups>
-    <test name="Gradle test" duration-ms="24944" started-at="2020-03-05T11:09:09Z" finished-at="2020-03-05T11:09:34Z">
+    <test name="Gradle test" duration-ms="78177" started-at="2020-03-05T11:50:19Z" finished-at="2020-03-05T11:51:37Z">
       <class name="com.dk.ui.TestOrder">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.dk.ui.TestOrder@6b437dbf]" name="beforeSuite" is-config="true" duration-ms="15" started-at="2020-03-05T11:09:09Z" finished-at="2020-03-05T11:09:09Z">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.dk.ui.TestOrder@12c91b0f]" name="beforeSuite" is-config="true" duration-ms="14" started-at="2020-03-05T11:50:19Z" finished-at="2020-03-05T11:50:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.dk.ui.TestOrder@6b437dbf]" name="beforeMethod" is-config="true" duration-ms="10869" started-at="2020-03-05T11:09:09Z" finished-at="2020-03-05T11:09:20Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.dk.ui.TestOrder@12c91b0f]" name="beforeMethod" is-config="true" duration-ms="10764" started-at="2020-03-05T11:50:19Z" finished-at="2020-03-05T11:50:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="FAIL" signature="successfulPaymentFlow(java.util.HashMap)[pri:0, instance:com.dk.ui.TestOrder@6b437dbf]" name="successfulPaymentFlow" duration-ms="13160" started-at="2020-03-05T11:09:20Z" data-provider="successfulPaymentFlowData" finished-at="2020-03-05T11:09:33Z">
+        <test-method status="FAIL" signature="failedPaymentFlow(java.util.HashMap)[pri:0, instance:com.dk.ui.TestOrder@12c91b0f]" name="failedPaymentFlow" duration-ms="66565" started-at="2020-03-05T11:50:30Z" data-provider="failedPaymentFlowData" finished-at="2020-03-05T11:51:36Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{cardCvv=123, cardNumber=4811111111111114, cardExpiryDate=02/21, bankOTP=112233}]]>
+                <![CDATA[{cardCvv=123, cardNumber=4811111111111113, cardExpiryDate=02/21, bankOTP=112233}]]>
               </value>
             </param>
           </params>
-          <exception class="java.lang.AssertionError">
+          <exception class="org.openqa.selenium.TimeoutException">
             <message>
-              <![CDATA[card number doesn't matched expected [4811111111111114] but found [4811111114]]]>
+              <![CDATA[Expected condition failed: waiting for presence of element located by: By.xpath: //iframe[contains(@src,'https://api.sandbox.veritrans.co.id/v2/token/rba/redirect')] (tried for 60 second(s) with 500 milliseconds interval)]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: card number doesn't matched expected [4811111111111114] but found [4811111114]
-at org.testng.Assert.fail(Assert.java:96)
-at org.testng.Assert.failNotEquals(Assert.java:776)
-at org.testng.Assert.assertEqualsImpl(Assert.java:137)
-at org.testng.Assert.assertEquals(Assert.java:118)
-at com.dk.ui.PaymentConfirmationPage.verifyPaymentDetails(PaymentConfirmationPage.java:57)
-at com.dk.ui.TestOrder.successfulPaymentFlow(TestOrder.java:38)
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //iframe[contains(@src,'https://api.sandbox.veritrans.co.id/v2/token/rba/redirect')] (tried for 60 second(s) with 500 milliseconds interval)
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+at com.dk.selenium.ElementFinder.findElementByXpath(ElementFinder.java:108)
+at com.dk.ui.PaymentConfirmationPage.verifyPaymentDetails(PaymentConfirmationPage.java:43)
+at com.dk.ui.TestOrder.failedPaymentFlow(TestOrder.java:70)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -85,13 +84,43 @@ at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:114
 at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
 at java.lang.Thread.run(Thread.java:748)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//iframe[contains(@src,'https://api.sandbox.veritrans.co.id/v2/token/rba/redirect')]"}
+  (Session info: chrome=80.0.3987.122)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'WKSWUPUN0946', ip: '10.199.51.40', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_242'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\314428\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 80.0.3987.122, webStorageEnabled: true}
+Session ID: 39b9352514b110abd4822b0addbc1f08
+*** Element info: {Using=xpath, value=//iframe[contains(@src,'https://api.sandbox.veritrans.co.id/v2/token/rba/redirect')]}
+at sun.reflect.GeneratedConstructorAccessor12.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:182)
+at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:179)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+... 53 more
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- successfulPaymentFlow -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.dk.ui.TestOrder@6b437dbf]" name="afterMethod" is-config="true" duration-ms="892" started-at="2020-03-05T11:09:33Z" finished-at="2020-03-05T11:09:34Z">
+        </test-method> <!-- failedPaymentFlow -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.dk.ui.TestOrder@12c91b0f]" name="afterMethod" is-config="true" duration-ms="818" started-at="2020-03-05T11:51:36Z" finished-at="2020-03-05T11:51:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->

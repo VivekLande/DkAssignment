@@ -1,11 +1,14 @@
 package com.dk.ui;
 
 import com.dk.utils.ProjectProperties;
+import org.openqa.selenium.By;
+import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.pagefactory.AjaxElementLocatorFactory;
+import org.testng.Assert;
 
 import java.util.HashMap;
 
@@ -41,6 +44,9 @@ public class CreditCardPage extends BasePage {
     @FindBy(xpath = "//a[@class='button-main-content']")
     private WebElement payNowButton;
 
+    @FindBy(xpath = "//span[text()='Invalid card number']")
+    private WebElement invalidCardNumberMsglabel;
+
     public void fillCreditCardDetails(HashMap<Object, Object> data) {
         driver.switchTo().frame("snap-midtrans");
 
@@ -60,6 +66,25 @@ public class CreditCardPage extends BasePage {
     public void navigateToPayNowPage() {
         driver.switchTo().frame("snap-midtrans");
         elementUtils.clickElementAfterFocus(payNowButton);
+        driver.switchTo().defaultContent();
+    }
+
+    public void verifyIfInvalidCardNumberMsgDisplay() {
+        driver.switchTo().frame("snap-midtrans");
+        if (!invalidCardNumberMsglabel.isDisplayed()) {
+            Assert.fail("Invalid card number msg is not displayed for wrong card number");
+        }
+        driver.switchTo().defaultContent();
+    }
+
+    public void verifyPaymentPageIsNotOpen() {
+        driver.switchTo().frame("snap-midtrans");
+        try {
+            driver.findElement(By.xpath("//iframe[contains(@src,'https://api.sandbox.veritrans.co.id/v2/token/rba/redirect')]"));
+            Assert.fail("Unexpected, Payment page is open");
+        } catch (NoSuchElementException e) {
+            System.out.println("Payment page is not open");
+        }
         driver.switchTo().defaultContent();
     }
 }

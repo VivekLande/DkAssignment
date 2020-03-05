@@ -5,9 +5,9 @@
     <classes>
       <class name="com.dk.ui.TestOrder">
         <methods>
-          <include name="successfulPaymentFlow" invocation-numbers="0"/>
           <include name="beforeMethod"/>
           <include name="afterMethod"/>
+          <include name="failedPaymentFlow" invocation-numbers="0"/>
           <include name="beforeSuite"/>
         </methods>
       </class> <!-- com.dk.ui.TestOrder -->

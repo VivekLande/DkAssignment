@@ -80,5 +80,11 @@ public class PaymentConfirmationPage extends BasePage {
 
         driver.switchTo().defaultContent();
         driver.switchTo().defaultContent();
+        try {
+            Thread.sleep(10000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
     }
 }

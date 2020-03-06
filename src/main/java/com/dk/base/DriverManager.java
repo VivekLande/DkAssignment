@@ -44,6 +44,11 @@ public class DriverManager {
         return webDriver;
     }
 
+    /**
+     * Get instance of web driver, if not initialized then will initialize the driver
+     *
+     * @return WebDriver
+     */
     public static WebDriver getWebDriver() {
         if (webDriver != null)
             return webDriver;

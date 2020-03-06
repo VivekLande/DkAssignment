@@ -2,41 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="77997b08-33de-493d-8659-d957b5bdafa4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dk/utils/CompareResponseThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/jarAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutomationReport/Gradle suite/Gradle test.html" beforeDir="false" afterPath="$PROJECT_DIR$/AutomationReport/Gradle suite/Gradle test.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutomationReport/Gradle suite/Gradle test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/AutomationReport/Gradle suite/Gradle test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutomationReport/Gradle suite/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/AutomationReport/Gradle suite/testng-failed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutomationReport/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/AutomationReport/emailable-report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutomationReport/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/AutomationReport/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutomationReport/junitreports/TEST-com.dk.assignments.TestProblemStatementTwo.xml" beforeDir="false" afterPath="$PROJECT_DIR$/AutomationReport/junitreports/TEST-com.dk.assignments.TestProblemStatementTwo.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutomationReport/old/Gradle suite/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/AutomationReport/old/Gradle suite/classes.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutomationReport/old/Gradle suite/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/AutomationReport/old/Gradle suite/methods-alphabetical.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutomationReport/old/Gradle suite/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/AutomationReport/old/Gradle suite/methods.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutomationReport/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/AutomationReport/testng-failed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutomationReport/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/AutomationReport/testng-results.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/dk/assignments/TestProblemStatementTwo.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/dk/assignments/TestProblemStatementTwo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/dk/assignments/TestProblemStatementTwo.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/dk/assignments/TestProblemStatementTwo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/apifiles/firstFile.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/apifiles/firstFile.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/apifiles/secondFile.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/apifiles/secondFile.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/run/TEST-com.dk.assignments.TestProblemStatementTwo.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/run/TEST-com.dk.assignments.TestProblemStatementTwo.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/run/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/run/binary/output.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/run/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/run/binary/output.bin.idx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/run/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/run/binary/results.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/classes/com.dk.assignments.TestProblemStatementTwo.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/classes/com.dk.assignments.TestProblemStatementTwo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/packages/com.dk.assignments.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/packages/com.dk.assignments.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/apifiles/firstFile.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/apifiles/firstFile.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dk/base/DriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dk/base/DriverManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dk/utils/CompareResponseThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dk/utils/CompareResponseThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dk/utils/IComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dk/utils/IComparator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dk/utils/ProjectProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dk/utils/ProjectProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/dk/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/dk/BaseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/dk/assignments/TestProblemStatementTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/dk/assignments/TestProblemStatementTwo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

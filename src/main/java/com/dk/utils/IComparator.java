@@ -7,6 +7,13 @@ import java.util.Map;
  * @author Vivek Lande
  */
 public class IComparator {
+    /**
+     * Comparing data of Map
+     *
+     * @param firstObject  first map object
+     * @param secondObject second map object
+     * @return boolean
+     */
     public boolean compareMap(Map<String, Object> firstObject, Map<String, Object> secondObject) {
         boolean isMapSame = false;
 

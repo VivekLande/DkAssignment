@@ -11,7 +11,10 @@ public class ProjectProperties {
     private static String requestTimeOut;
     private static String browserType;
 
-    public static void intitProjectProperties() {
+    /**
+     * Initializing project properties
+     */
+    public static void initProjectProperties() {
         Properties properties = CommonUtils.readProperties(System.getProperty("user.dir") + File.separator + "project.properties");
         requestTimeOut = properties.getProperty("request.timeout.in.seconds");
         browserType = properties.getProperty("browser.type");

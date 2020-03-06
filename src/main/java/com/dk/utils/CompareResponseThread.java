@@ -35,13 +35,19 @@ public class CompareResponseThread extends Thread {
             JSONObject secondJSON = new JSONObject((Map) secondApiResponse.getBody().jsonPath().getJsonObject("$"));
             CommonUtils.parseJSONObjectToMap(firstJSON);
 
-            System.out.println("Comparing both api response");
+            System.out.println(String.format("Comparing API '%s' adn '%s' responses", firstApi, secondApi));
             boolean isSame = iComparator.compareMap(CommonUtils.parseJSONObjectToMap(firstJSON), CommonUtils.parseJSONObjectToMap(secondJSON));
             softAssert.assertTrue(isSame, String.format("%s is not equal with %s", firstApi, secondApi));
 
         }
     }
 
+    /**
+     * Hitting api via GET method
+     *
+     * @param api
+     * @return Response
+     */
     public Response getApiResponseViaGet(String api) {
         RestAssured.useRelaxedHTTPSValidation();
         return RestAssured.request(Method.GET, api);

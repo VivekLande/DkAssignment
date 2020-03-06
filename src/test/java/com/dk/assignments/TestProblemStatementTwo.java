@@ -17,58 +17,18 @@ import java.util.ArrayList;
 import java.util.Map;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
-import java.util.concurrent.TimeUnit;
 
 /**
  * @author Vivek Lande
  */
 public class TestProblemStatementTwo {
 
-    //@Test
-    public void verifyIfApiIsSameBackUp() {
-        SoftAssert softAssert = new SoftAssert();
-        String fs = System.getProperty("file.separator");
-        String fistFilePath = "apifiles" + fs + "firstFile.txt";
-        String secondFilePath = "apifiles" + fs + "secondFile.txt";
-        System.out.println(fistFilePath);
-        File firstFile = new File(CommonUtils.getResourcePathAsUri(fistFilePath));
-        File secondFile = new File(CommonUtils.getResourcePathAsUri(secondFilePath));
-        BufferedReader firstFileReader;
-        BufferedReader secondFileReader;
-        IComparator iComparator = new IComparator();
-
-        try {
-            firstFileReader = new BufferedReader(new FileReader(firstFile));
-            secondFileReader = new BufferedReader(new FileReader(secondFile));
-
-            String firstFileLine, secondFileLine = null;
-            while ((firstFileLine = firstFileReader.readLine()) != null && (secondFileLine = secondFileReader.readLine()) != null) {
-                System.out.println(firstFileLine + " : " + secondFileLine);
-
-                Response firstApiResponse = getApiResponseViaGet(firstFileLine);
-                Response secondApiResponse = getApiResponseViaGet(secondFileLine);
-                if (firstApiResponse.getStatusCode() != secondApiResponse.getStatusCode()) {
-                    System.out.println(firstApiResponse.getStatusCode() + ":" + secondApiResponse.getStatusCode());
-                    softAssert.assertTrue(false, String.format("%s is not equal with %s", firstFileLine, secondFileLine));
-                } else {
-                    JSONObject firstJSON = new JSONObject((Map) firstApiResponse.getBody().jsonPath().getJsonObject("$"));
-                    JSONObject secondJSON = new JSONObject((Map) secondApiResponse.getBody().jsonPath().getJsonObject("$"));
-                    CommonUtils.parseJSONObjectToMap(firstJSON);
-
-                    System.out.println("Comparing both api response");
-                    boolean isSame = iComparator.compareMap(CommonUtils.parseJSONObjectToMap(firstJSON), CommonUtils.parseJSONObjectToMap(secondJSON));
-                    softAssert.assertTrue(isSame, String.format("%s is not equal with %s", firstFileLine, secondFileLine));
-
-                }
-            }
-            softAssert.assertAll();
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
-
+    /**
+     * This is to verify the API list mapping from firstfile.txt file to
+     * secondFile.txt has the same response
+     */
     @Test
-    public void verifyIfApiIsSame() {
+    public void verifyIfApiAreSame() {
         SoftAssert softAssert = new SoftAssert();
         String fs = System.getProperty("file.separator");
         String fistFilePath = "apifiles" + fs + "firstFile.txt";
@@ -87,12 +47,14 @@ public class TestProblemStatementTwo {
             int i = 0;
             while ((firstFileApi = firstFileReader.readLine()) != null && (secondFileApi = secondFileReader.readLine()) != null) {
                 i++;
-                System.out.println("Verifying '" + firstFileApi + "' : " + "'" + secondFileApi + "'");
+                System.out.println("Verifying responses of  '" + firstFileApi + "' :vs: " + "'" + secondFileApi + "'");
                 Thread name = new Thread("name" + i);
-                name = new CompareResponseThread(firstFileApi, secondFileApi, softAssert);
+                name = new CompareResponseThread(firstFileApi, secondFileApi, softAssert);//hitting the API's and comparing their responses
                 name.start();
                 threadList.add(name);
             }
+
+            //reaching at end of first file
             if (firstFileApi != null) {
                 softAssert.assertTrue(false, String.format("API '%s' from first file doesn't have mapping in second file", firstFileApi));
                 while ((firstFileApi = firstFileReader.readLine()) != null) {
@@ -100,6 +62,7 @@ public class TestProblemStatementTwo {
                 }
             }
 
+            //reaching at end of second file
             if (secondFileApi != null) {
                 softAssert.assertTrue(false, String.format("API '%s' from second file doesn't have mapping in first file", secondFileApi));
                 while ((secondFileApi = secondFileReader.readLine()) != null) {
@@ -107,9 +70,12 @@ public class TestProblemStatementTwo {
                 }
             }
 
+            //Checking that all thread has done their work
             while (threadList.size() > 0) {
                 threadList.removeIf(thread -> !thread.isAlive());
             }
+
+            //asserting all comparison
             softAssert.assertAll();
         } catch (Exception e) {
             e.printStackTrace();

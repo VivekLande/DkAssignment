@@ -15,7 +15,7 @@ public class BaseTest {
 
     @BeforeSuite
     public void beforeSuite() {
-        ProjectProperties.intitProjectProperties();
+        ProjectProperties.initProjectProperties();
     }
 
     @BeforeMethod

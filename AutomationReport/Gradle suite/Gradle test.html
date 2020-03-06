@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Fri Mar 06 20:13:05 IST 2020</td>
+<td>Started on:</td><td>Fri Mar 06 22:51:37 IST 2020</td>
 </tr>
-<tr><td>Total time:</td><td>17 seconds (17927 ms)</td>
+<tr><td>Total time:</td><td>5 seconds (5902 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,23 +75,31 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.dk.assignments.TestProblemStatementTwo.CompareApiResponse()'><b>CompareApiResponse</b><br>Test class: com.dk.assignments.TestProblemStatementTwo</td>
+<td title='com.dk.assignments.TestProblemStatementTwo.verifyIfApiIsSame()'><b>verifyIfApiIsSame</b><br>Test class: com.dk.assignments.TestProblemStatementTwo</td>
 <td><div><pre>java.lang.AssertionError: The following asserts failed:
+	API &apos;a&apos; from second file doesn&apos;t have mapping in first file expected [true] but found [false],
+	API &apos;b&apos; from second file doesn&apos;t have mapping in first file expected [true] but found [false],
+	API &apos;c&apos; from second file doesn&apos;t have mapping in first file expected [true] but found [false],
+	https://reqres.in/api/users?page=1 is not equal with a expected [true] but found [false],
+	https://reqres.in/api/users/2 is not equal with /api/unknown/2 expected [true] but found [false],
 	https://reqres.in/api/users/3 is not equal with https://reqres.in/api/users/2 expected [true] but found [false],
-	https://reqres.in/api/users/1 is not equal with https://reqres.in/api/users?page=3 expected [true] but found [false],
-	https://reqres.in/api/users/2 is not equal with /api/unknown/2 expected [true] but found [false]
-	at com.dk.assignments.TestProblemStatementTwo.CompareApiResponse(TestProblemStatementTwo.java:61)
+	https://reqres.in/api/users/1 is not equal with https://reqres.in/api/users?page=3 expected [true] but found [false]
+	at com.dk.assignments.TestProblemStatementTwo.verifyIfApiIsSame(TestProblemStatementTwo.java:113)
 	at com.sun.proxy.$Proxy2.stop(Unknown Source)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-... Removed 47 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace841744126", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace841744126'><pre>java.lang.AssertionError: The following asserts failed:
+... Removed 47 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1203911775", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1203911775'><pre>java.lang.AssertionError: The following asserts failed:
+	API &apos;a&apos; from second file doesn&apos;t have mapping in first file expected [true] but found [false],
+	API &apos;b&apos; from second file doesn&apos;t have mapping in first file expected [true] but found [false],
+	API &apos;c&apos; from second file doesn&apos;t have mapping in first file expected [true] but found [false],
+	https://reqres.in/api/users?page=1 is not equal with a expected [true] but found [false],
+	https://reqres.in/api/users/2 is not equal with /api/unknown/2 expected [true] but found [false],
 	https://reqres.in/api/users/3 is not equal with https://reqres.in/api/users/2 expected [true] but found [false],
-	https://reqres.in/api/users/1 is not equal with https://reqres.in/api/users?page=3 expected [true] but found [false],
-	https://reqres.in/api/users/2 is not equal with /api/unknown/2 expected [true] but found [false]
+	https://reqres.in/api/users/1 is not equal with https://reqres.in/api/users?page=3 expected [true] but found [false]
 	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
-	at com.dk.assignments.TestProblemStatementTwo.CompareApiResponse(TestProblemStatementTwo.java:61)
+	at com.dk.assignments.TestProblemStatementTwo.verifyIfApiIsSame(TestProblemStatementTwo.java:113)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -143,8 +151,8 @@ function toggleAllBoxes() {
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
 	at java.lang.Thread.run(Thread.java:748)
 </pre></div></td>
-<td>17</td>
-<td>com.dk.assignments.TestProblemStatementTwo@576432e1</td></tr>
+<td>5</td>
+<td>com.dk.assignments.TestProblemStatementTwo@676b8acc</td></tr>
 </table><p>
 </body>
 </html>

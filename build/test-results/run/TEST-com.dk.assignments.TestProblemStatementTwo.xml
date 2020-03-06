@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.dk.assignments.TestProblemStatementTwo" tests="1" skipped="0" failures="1" errors="0" timestamp="2020-03-06T14:43:05" hostname="WKSWUPUN0946" time="17.852">
+<testsuite name="com.dk.assignments.TestProblemStatementTwo" tests="1" skipped="0" failures="1" errors="0" timestamp="2020-03-06T17:21:37" hostname="WKSWUPUN0946" time="5.875">
   <properties/>
-  <testcase name="CompareApiResponse" classname="com.dk.assignments.TestProblemStatementTwo" time="17.852">
-    <failure message="java.lang.AssertionError: The following asserts failed:&#10;&#9;https://reqres.in/api/users/3 is not equal with https://reqres.in/api/users/2 expected [true] but found [false],&#10;&#9;https://reqres.in/api/users/1 is not equal with https://reqres.in/api/users?page=3 expected [true] but found [false],&#10;&#9;https://reqres.in/api/users/2 is not equal with /api/unknown/2 expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: The following asserts failed:
+  <testcase name="verifyIfApiIsSame" classname="com.dk.assignments.TestProblemStatementTwo" time="5.875">
+    <failure message="java.lang.AssertionError: The following asserts failed:&#10;&#9;API 'a' from second file doesn't have mapping in first file expected [true] but found [false],&#10;&#9;API 'b' from second file doesn't have mapping in first file expected [true] but found [false],&#10;&#9;API 'c' from second file doesn't have mapping in first file expected [true] but found [false],&#10;&#9;https://reqres.in/api/users?page=1 is not equal with a expected [true] but found [false],&#10;&#9;https://reqres.in/api/users/2 is not equal with /api/unknown/2 expected [true] but found [false],&#10;&#9;https://reqres.in/api/users/3 is not equal with https://reqres.in/api/users/2 expected [true] but found [false],&#10;&#9;https://reqres.in/api/users/1 is not equal with https://reqres.in/api/users?page=3 expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: The following asserts failed:
+	API 'a' from second file doesn't have mapping in first file expected [true] but found [false],
+	API 'b' from second file doesn't have mapping in first file expected [true] but found [false],
+	API 'c' from second file doesn't have mapping in first file expected [true] but found [false],
+	https://reqres.in/api/users?page=1 is not equal with a expected [true] but found [false],
+	https://reqres.in/api/users/2 is not equal with /api/unknown/2 expected [true] but found [false],
 	https://reqres.in/api/users/3 is not equal with https://reqres.in/api/users/2 expected [true] but found [false],
-	https://reqres.in/api/users/1 is not equal with https://reqres.in/api/users?page=3 expected [true] but found [false],
-	https://reqres.in/api/users/2 is not equal with /api/unknown/2 expected [true] but found [false]
+	https://reqres.in/api/users/1 is not equal with https://reqres.in/api/users?page=3 expected [true] but found [false]
 	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
-	at com.dk.assignments.TestProblemStatementTwo.CompareApiResponse(TestProblemStatementTwo.java:61)
+	at com.dk.assignments.TestProblemStatementTwo.verifyIfApiIsSame(TestProblemStatementTwo.java:113)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -61,15 +65,17 @@
 </failure>
   </testcase>
   <system-out><![CDATA[apifiles\firstFile.txt
-https://reqres.in/api/users/3 : https://reqres.in/api/users/2
+Verifying 'https://reqres.in/api/users/3' : 'https://reqres.in/api/users/2'
+Verifying 'https://reqres.in/api/users/1' : 'https://reqres.in/api/users?page=3'
+Verifying 'https://reqres.in/api/users/2' : '/api/unknown/2'
+Verifying 'https://reqres.in/api/users?page=2' : 'https://reqres.in/api/users?page=2'
+Verifying 'https://reqres.in/api/users?page=1' : 'a'
+200:403
+200:403
 Comparing both api response
 {last_name=Wong, id=3, avatar=https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg, first_name=Emma, email=emma.wong@reqres.in}is not equals to {last_name=Weaver, id=2, avatar=https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg, first_name=Janet, email=janet.weaver@reqres.in}
-https://reqres.in/api/users/1 : https://reqres.in/api/users?page=3
 Comparing both api response
 {last_name=Bluth, id=1, avatar=https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg, first_name=George, email=george.bluth@reqres.in}is not equals to []
-https://reqres.in/api/users/2 : /api/unknown/2
-200:403
-https://reqres.in/api/users?page=2 : https://reqres.in/api/users?page=2
 Comparing both api response
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>

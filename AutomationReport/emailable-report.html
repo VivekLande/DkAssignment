@@ -9,15 +9,19 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="7">Gradle suite</th></tr>
-<tr><td><a href="#t0">Gradle test</a></td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">17,927</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Gradle test</a></td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">5,902</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Gradle suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Gradle test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.dk.assignments.TestProblemStatementTwo</td><td><a href="#m0">CompareApiResponse</a></td><td rowspan="1">1583505785782</td><td rowspan="1">17852</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Gradle suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Gradle test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.dk.assignments.TestProblemStatementTwo</td><td><a href="#m0">verifyIfApiIsSame</a></td><td rowspan="1">1583515297323</td><td rowspan="1">5875</td></tr></tbody>
 </table>
-<h2>Gradle test</h2><h3 id="m0">com.dk.assignments.TestProblemStatementTwo#CompareApiResponse</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: The following asserts failed:
+<h2>Gradle test</h2><h3 id="m0">com.dk.assignments.TestProblemStatementTwo#verifyIfApiIsSame</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: The following asserts failed:
+	API &apos;a&apos; from second file doesn&apos;t have mapping in first file expected [true] but found [false],
+	API &apos;b&apos; from second file doesn&apos;t have mapping in first file expected [true] but found [false],
+	API &apos;c&apos; from second file doesn&apos;t have mapping in first file expected [true] but found [false],
+	https://reqres.in/api/users?page=1 is not equal with a expected [true] but found [false],
+	https://reqres.in/api/users/2 is not equal with /api/unknown/2 expected [true] but found [false],
 	https://reqres.in/api/users/3 is not equal with https://reqres.in/api/users/2 expected [true] but found [false],
-	https://reqres.in/api/users/1 is not equal with https://reqres.in/api/users?page=3 expected [true] but found [false],
-	https://reqres.in/api/users/2 is not equal with /api/unknown/2 expected [true] but found [false]
-	at com.dk.assignments.TestProblemStatementTwo.CompareApiResponse(TestProblemStatementTwo.java:61)
+	https://reqres.in/api/users/1 is not equal with https://reqres.in/api/users?page=3 expected [true] but found [false]
+	at com.dk.assignments.TestProblemStatementTwo.verifyIfApiIsSame(TestProblemStatementTwo.java:113)
 	at com.sun.proxy.$Proxy2.stop(Unknown Source)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)

@@ -102,7 +102,7 @@
                     <div class="method-list-content failed suite-Gradle_suite">
                       <span>
                         <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Gradle_suite" title="com.dk.assignments.TestProblemStatementTwo" hash-for-method="CompareApiResponse">CompareApiResponse</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Gradle_suite" title="com.dk.assignments.TestProblemStatementTwo" hash-for-method="verifyIfApiIsSame">verifyIfApiIsSame</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Gradle_suite -->
@@ -125,14 +125,18 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="CompareApiResponse">
-                  </a> <!-- CompareApiResponse -->
-                  <span class="method-name">CompareApiResponse</span>
+                  <a name="verifyIfApiIsSame">
+                  </a> <!-- verifyIfApiIsSame -->
+                  <span class="method-name">verifyIfApiIsSame</span>
                   <div class="stack-trace">java.lang.AssertionError: The following asserts failed:
+	API &apos;a&apos; from second file doesn&apos;t have mapping in first file expected [true] but found [false],
+	API &apos;b&apos; from second file doesn&apos;t have mapping in first file expected [true] but found [false],
+	API &apos;c&apos; from second file doesn&apos;t have mapping in first file expected [true] but found [false],
+	https://reqres.in/api/users?page=1 is not equal with a expected [true] but found [false],
+	https://reqres.in/api/users/2 is not equal with /api/unknown/2 expected [true] but found [false],
 	https://reqres.in/api/users/3 is not equal with https://reqres.in/api/users/2 expected [true] but found [false],
-	https://reqres.in/api/users/1 is not equal with https://reqres.in/api/users?page=3 expected [true] but found [false],
-	https://reqres.in/api/users/2 is not equal with /api/unknown/2 expected [true] but found [false]
-	at com.dk.assignments.TestProblemStatementTwo.CompareApiResponse(TestProblemStatementTwo.java:61)
+	https://reqres.in/api/users/1 is not equal with https://reqres.in/api/users?page=3 expected [true] but found [false]
+	at com.dk.assignments.TestProblemStatementTwo.verifyIfApiIsSame(TestProblemStatementTwo.java:113)
 	at com.sun.proxy.$Proxy2.stop(Unknown Source)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
@@ -196,14 +200,14 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'CompareApiResponse')
+data.setCell(0, 1, 'verifyIfApiIsSame')
 data.setCell(0, 2, 'com.dk.assignments.TestProblemStatementTwo')
-data.setCell(0, 3, 17852);
+data.setCell(0, 3, 5875);
 window.suiteTableData['Gradle_suite']= { tableData: data, tableDiv: 'times-div-Gradle_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 17 seconds</span>
+              <span class="suite-total-time">Total running time: 5 seconds</span>
               <div id="times-div-Gradle_suite">
               </div> <!-- times-div-Gradle_suite -->
             </div> <!-- times-div -->
@@ -233,7 +237,7 @@ return data;
               <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">CompareApiResponse</span>
+                <span class="method-name">verifyIfApiIsSame</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->

@@ -1,11 +1,13 @@
 apifiles\firstFile.txt
-?https://reqres.in/api/users/3 : https://reqres.in/api/users/2
+MVerifying 'https://reqres.in/api/users/3' : 'https://reqres.in/api/users/2'
+RVerifying 'https://reqres.in/api/users/1' : 'https://reqres.in/api/users?page=3'
+>Verifying 'https://reqres.in/api/users/2' : '/api/unknown/2'
+WVerifying 'https://reqres.in/api/users?page=2' : 'https://reqres.in/api/users?page=2'
+6Verifying 'https://reqres.in/api/users?page=1' : 'a'
+	200:403
+	200:403
 Comparing both api response
 ´{last_name=Wong, id=3, avatar=https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg, first_name=Emma, email=emma.wong@reqres.in}is not equals to {last_name=Weaver, id=2, avatar=https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg, first_name=Janet, email=janet.weaver@reqres.in}
-Dhttps://reqres.in/api/users/1 : https://reqres.in/api/users?page=3
 Comparing both api response
 §{last_name=Bluth, id=1, avatar=https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg, first_name=George, email=george.bluth@reqres.in}is not equals to []
-0https://reqres.in/api/users/2 : /api/unknown/2
-	200:403
-Ihttps://reqres.in/api/users?page=2 : https://reqres.in/api/users?page=2
 Comparing both api response

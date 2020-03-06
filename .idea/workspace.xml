@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="77997b08-33de-493d-8659-d957b5bdafa4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/drivers/geckodriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dk/utils/IComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/apifiles/firstFile.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/apifiles/secondFile.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/dk/assignments/TestProblemStatementTwo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
@@ -15,32 +18,103 @@
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutomationReport/Gradle suite/Gradle test.html" beforeDir="false" afterPath="$PROJECT_DIR$/AutomationReport/Gradle suite/Gradle test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutomationReport/Gradle suite/Gradle test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/AutomationReport/Gradle suite/Gradle test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutomationReport/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/AutomationReport/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutomationReport/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/AutomationReport/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutomationReport/junitreports/TEST-com.dk.ui.TestOrder.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutomationReport/old/Gradle suite/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/AutomationReport/old/Gradle suite/classes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutomationReport/old/Gradle suite/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/AutomationReport/old/Gradle suite/methods-alphabetical.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutomationReport/old/Gradle suite/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/AutomationReport/old/Gradle suite/methods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutomationReport/old/Gradle suite/testng.xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/AutomationReport/old/Gradle suite/testng.xml.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutomationReport/old/Gradle suite/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/AutomationReport/old/Gradle suite/toc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutomationReport/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/AutomationReport/old/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutomationReport/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/AutomationReport/testng-results.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GradleReport/classes/com.dk.ui.TestOrder.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GradleReport/css/base-style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GradleReport/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GradleReport/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GradleReport/js/report.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GradleReport/packages/com.dk.ui.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/dk/ui/CreditCardPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/dk/ui/CreditCardPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/dk/ui/TestOrder.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/dk/ui/TestOrder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/dk/ui/TestOrder.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/dk/ui/TestOrder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/run/Gradle suite/Gradle test.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/run/Gradle suite/Gradle test.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/run/Gradle suite/Gradle test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/run/Gradle suite/Gradle test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/run/Gradle suite/testng-failed.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/run/classes/com.dk.ui.TestOrder.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/run/classes/com.dk.ui.TestOrder.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/run/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/run/emailable-report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/run/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/run/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/run/junitreports/TEST-com.dk.ui.TestOrder.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/run/junitreports/TEST-com.dk.ui.TestOrder.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/run/old/Gradle suite/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/run/old/Gradle suite/methods-alphabetical.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/run/old/Gradle suite/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/run/old/Gradle suite/methods.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/run/old/Gradle suite/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/run/old/Gradle suite/toc.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/run/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/run/old/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/run/packages/com.dk.ui.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/run/packages/com.dk.ui.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/run/testng-failed.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/run/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/run/testng-results.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/run/TEST-com.dk.ui.TestOrder.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/run/TEST-com.dk.ui.TestOrder.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/run/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/run/binary/output.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/run/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/run/binary/output.bin.idx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/run/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/run/binary/results.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project.properties" beforeDir="false" afterPath="$PROJECT_DIR$/project.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dk/base/DriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dk/base/DriverManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dk/ui/CreditCardPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dk/ui/CreditCardPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dk/utils/ProjectProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dk/utils/ProjectProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/dk/BaseTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/dk/base/DriverManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/dk/selenium/ElementFinder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/dk/selenium/ElementUtils$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/dk/selenium/ElementUtils$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/dk/selenium/ElementUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/dk/testdata/TestOrderData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/dk/ui/BasePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/dk/ui/CreditCardPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/dk/ui/HomePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/dk/ui/OrderSummaryPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/dk/ui/PaymentConfirmationPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/dk/ui/SelectPaymentPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/dk/ui/ShoppingCartPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/dk/ui/TestOrder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/dk/utils/CommonUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/dk/utils/ProjectProperties.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/dk/BaseTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/dk/testdata/TestOrderData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/dk/ui/TestOrder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/DkAssignment-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/run/Gradle suite/Gradle test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/run/Gradle suite/Gradle test.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/run/bullet_point.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/run/classes/com.dk.ui.TestOrder.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/run/collapseall.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/run/css/base-style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/run/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/run/emailable-report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/run/failed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/run/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/run/jquery-1.7.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/run/js/report.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/run/junitreports/TEST-com.dk.ui.TestOrder.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/run/navigator-bullet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/run/old/Gradle suite/Gradle test.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/run/old/Gradle suite/classes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/run/old/Gradle suite/groups.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/run/old/Gradle suite/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/run/old/Gradle suite/main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/run/old/Gradle suite/methods-alphabetical.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/run/old/Gradle suite/methods-not-run.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/run/old/Gradle suite/methods.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/run/old/Gradle suite/reporter-output.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/run/old/Gradle suite/testng.xml.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/run/old/Gradle suite/toc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/run/old/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/run/packages/com.dk.ui.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/run/passed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/run/skipped.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/run/testng-reports.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/run/testng-reports.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/run/testng-results.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/run/testng.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/css/base-style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/js/report.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/drivers/chromedriver.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/drivers/geckodriver.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/run/TEST-com.dk.ui.TestOrder.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/run/binary/output.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/run/binary/output.bin.idx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/run/binary/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/jar/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dk/ui/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dk/assignments/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dk/ui/CreditCardPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dk/assignments/CreditCardPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dk/ui/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dk/assignments/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dk/ui/OrderSummaryPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dk/assignments/OrderSummaryPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dk/ui/PaymentConfirmationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dk/assignments/PaymentConfirmationPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dk/ui/SelectPaymentPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dk/assignments/SelectPaymentPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dk/ui/ShoppingCartPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dk/assignments/ShoppingCartPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dk/utils/CommonUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dk/utils/CommonUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/dk/testdata/TestOrderData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/dk/testdata/TestProblemStatementOneData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/dk/ui/TestOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/dk/assignments/TestProblemStatementOne.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +166,7 @@
       <recent name="C:\projects\DkAssignment\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.TestOrder.failedPaymentFlow">
+  <component name="RunManager" selected="Gradle.TestProblemStatementTwo.CompareApiResponse">
     <configuration name="TestOrder.failedPaymentFlow" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -133,8 +207,29 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="TestProblemStatementTwo.CompareApiResponse" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.dk.assignments.TestProblemStatementTwo.CompareApiResponse&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanRun" />
+            <option value=":run" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.TestProblemStatementTwo.CompareApiResponse" />
         <item itemvalue="Gradle.TestOrder.failedPaymentFlow" />
         <item itemvalue="Gradle.TestOrder.successfulPaymentFlow" />
       </list>
@@ -154,57 +249,67 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="574" y="123" key="#com.intellij.ide.util.MemberChooser" timestamp="1583436420536">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="123" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1583436420536" />
     <state x="2742" y="417" width="403" height="287" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1583325622501">
       <screen x="1920" y="0" width="2048" height="1112" />
     </state>
     <state x="2742" y="417" width="403" height="287" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824/1920.0.2048.1112@1920.0.2048.1112" timestamp="1583325622501" />
-    <state x="2284" y="530" width="916" height="582" key="#xdebugger.evaluate" timestamp="1583400754544">
-      <screen x="1920" y="0" width="2048" height="1112" />
+    <state x="273" y="392" width="916" height="582" key="#xdebugger.evaluate" timestamp="1583432831601">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="2284" y="530" width="916" height="582" key="#xdebugger.evaluate/0.0.1536.824/1920.0.2048.1112@1920.0.2048.1112" timestamp="1583400754544" />
-    <state width="2005" height="706" key="GridCell.Tab.0.bottom" timestamp="1583411335168">
-      <screen x="1920" y="0" width="2048" height="1112" />
+    <state x="273" y="392" key="#xdebugger.evaluate/0.0.1536.824@0.0.1536.824" timestamp="1583432831601" />
+    <state width="1493" height="492" key="GridCell.Tab.0.bottom" timestamp="1583505896833">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="2005" height="706" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.2048.1112@1920.0.2048.1112" timestamp="1583411335168" />
-    <state width="2005" height="360" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1583392658750" />
-    <state width="2005" height="706" key="GridCell.Tab.0.center" timestamp="1583411335168">
-      <screen x="1920" y="0" width="2048" height="1112" />
+    <state width="1493" height="492" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1583505896833" />
+    <state width="1493" height="492" key="GridCell.Tab.0.center" timestamp="1583505896833">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="2005" height="706" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.2048.1112@1920.0.2048.1112" timestamp="1583411335168" />
-    <state width="2005" height="360" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1583392658749" />
-    <state width="2005" height="706" key="GridCell.Tab.0.left" timestamp="1583411335168">
-      <screen x="1920" y="0" width="2048" height="1112" />
+    <state width="1493" height="492" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1583505896833" />
+    <state width="1493" height="492" key="GridCell.Tab.0.left" timestamp="1583505896833">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="2005" height="706" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.2048.1112@1920.0.2048.1112" timestamp="1583411335168" />
-    <state width="2005" height="360" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1583392658749" />
-    <state width="2005" height="706" key="GridCell.Tab.0.right" timestamp="1583411335168">
-      <screen x="1920" y="0" width="2048" height="1112" />
+    <state width="1493" height="492" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1583505896833" />
+    <state width="1493" height="492" key="GridCell.Tab.0.right" timestamp="1583505896833">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="2005" height="706" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.2048.1112@1920.0.2048.1112" timestamp="1583411335168" />
-    <state width="2005" height="360" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1583392658749" />
-    <state width="2005" height="367" key="GridCell.Tab.1.bottom" timestamp="1583401836249">
-      <screen x="1920" y="0" width="2048" height="1112" />
+    <state width="1493" height="492" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1583505896833" />
+    <state width="1493" height="251" key="GridCell.Tab.1.bottom" timestamp="1583435589008">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="2005" height="367" key="GridCell.Tab.1.bottom/0.0.1536.824/1920.0.2048.1112@1920.0.2048.1112" timestamp="1583401836249" />
-    <state width="2005" height="367" key="GridCell.Tab.1.center" timestamp="1583401836249">
-      <screen x="1920" y="0" width="2048" height="1112" />
+    <state width="1493" height="251" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1583435589008" />
+    <state width="1493" height="251" key="GridCell.Tab.1.center" timestamp="1583435589008">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="2005" height="367" key="GridCell.Tab.1.center/0.0.1536.824/1920.0.2048.1112@1920.0.2048.1112" timestamp="1583401836249" />
-    <state width="2005" height="367" key="GridCell.Tab.1.left" timestamp="1583401836249">
-      <screen x="1920" y="0" width="2048" height="1112" />
+    <state width="1493" height="251" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1583435589008" />
+    <state width="1493" height="251" key="GridCell.Tab.1.left" timestamp="1583435589008">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="2005" height="367" key="GridCell.Tab.1.left/0.0.1536.824/1920.0.2048.1112@1920.0.2048.1112" timestamp="1583401836249" />
-    <state width="2005" height="367" key="GridCell.Tab.1.right" timestamp="1583401836249">
-      <screen x="1920" y="0" width="2048" height="1112" />
+    <state width="1493" height="251" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1583435589008" />
+    <state width="1493" height="251" key="GridCell.Tab.1.right" timestamp="1583435589008">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="2005" height="367" key="GridCell.Tab.1.right/0.0.1536.824/1920.0.2048.1112@1920.0.2048.1112" timestamp="1583401836249" />
+    <state width="1493" height="251" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1583435589008" />
     <state width="1031" height="563" key="XDebugger.FullValuePopup" timestamp="1583394626773">
       <screen x="1920" y="0" width="2048" height="1112" />
     </state>
     <state width="1031" height="563" key="XDebugger.FullValuePopup/0.0.1536.824/1920.0.2048.1112@1920.0.2048.1112" timestamp="1583394626773" />
-    <state x="2607" y="243" width="672" height="678" key="search.everywhere.popup" timestamp="1583410383050">
-      <screen x="1920" y="0" width="2048" height="1112" />
+    <state x="515" y="180" width="672" height="503" key="search.everywhere.popup" timestamp="1583432561963">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="2607" y="243" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/1920.0.2048.1112@1920.0.2048.1112" timestamp="1583410383050" />
+    <state x="515" y="180" width="672" height="503" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1583432561963" />
   </component>
 </project>

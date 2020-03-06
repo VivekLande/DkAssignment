@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Gradle_suite">
-              <span class="suite-name border-passed">Gradle suite</span>
+              <span class="suite-name border-failed">Gradle suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,21 +91,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">1 method, 1 failed,   </span>
                   </li>
                   <li>
-                    <span class="method-list-title passed">Passed methods</span>
-                    <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-Gradle_suite" class="hide-methods passed suite-Gradle_suite"> (hide)</a> <!-- hide-methods passed suite-Gradle_suite -->
-                      <a href="#" panel-name="suite-Gradle_suite" class="show-methods passed suite-Gradle_suite"> (show)</a> <!-- show-methods passed suite-Gradle_suite -->
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Gradle_suite" class="hide-methods failed suite-Gradle_suite"> (hide)</a> <!-- hide-methods failed suite-Gradle_suite -->
+                      <a href="#" panel-name="suite-Gradle_suite" class="show-methods failed suite-Gradle_suite"> (show)</a> <!-- show-methods failed suite-Gradle_suite -->
                     </span>
-                    <div class="method-list-content passed suite-Gradle_suite">
+                    <div class="method-list-content failed suite-Gradle_suite">
                       <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Gradle_suite" title="com.dk.ui.TestOrder" hash-for-method="failedPaymentFlow({cardCvv=123, cardNumber=4811111111111113, cardExpiryDate=02/21, bankOTP=112233})">failedPaymentFlow({cardCvv=123, cardNumber=4811111111111113, cardExpiryDate=02/21, bankOTP=112233})</a> <!-- method navigator-link -->
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Gradle_suite" title="com.dk.assignments.TestProblemStatementTwo" hash-for-method="CompareApiResponse">CompareApiResponse</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content passed suite-Gradle_suite -->
+                    </div> <!-- method-list-content failed suite-Gradle_suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -117,22 +117,32 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Gradle_suite" class="panel Gradle_suite">
-          <div class="suite-Gradle_suite-class-passed">
+          <div class="suite-Gradle_suite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.dk.ui.TestOrder</span>
+              <img src="failed.png"/>
+              <span class="class-name">com.dk.assignments.TestProblemStatementTwo</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="failedPaymentFlow({cardCvv=123, cardNumber=4811111111111113, cardExpiryDate=02/21, bankOTP=112233})">
-                  </a> <!-- failedPaymentFlow({cardCvv=123, cardNumber=4811111111111113, cardExpiryDate=02/21, bankOTP=112233}) -->
-                  <span class="method-name">failedPaymentFlow</span>
-                  <span class="parameters">({cardCvv=123, cardNumber=4811111111111113, cardExpiryDate=02/21, bankOTP=112233})</span>
+                  <a name="CompareApiResponse">
+                  </a> <!-- CompareApiResponse -->
+                  <span class="method-name">CompareApiResponse</span>
+                  <div class="stack-trace">java.lang.AssertionError: The following asserts failed:
+	https://reqres.in/api/users/3 is not equal with https://reqres.in/api/users/2 expected [true] but found [false],
+	https://reqres.in/api/users/1 is not equal with https://reqres.in/api/users?page=3 expected [true] but found [false],
+	https://reqres.in/api/users/2 is not equal with /api/unknown/2 expected [true] but found [false]
+	at com.dk.assignments.TestProblemStatementTwo.CompareApiResponse(TestProblemStatementTwo.java:61)
+	at com.sun.proxy.$Proxy2.stop(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 47 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Gradle_suite-class-passed -->
+          </div> <!-- suite-Gradle_suite-class-failed -->
         </div> <!-- panel Gradle_suite -->
         <div panel-name="test-xml-Gradle_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -144,7 +154,7 @@
 &lt;suite verbose=&quot;0&quot; name=&quot;Gradle suite&quot;&gt;
   &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;Gradle test&quot; preserve-order=&quot;false&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.dk.ui.TestOrder&quot;/&gt;
+      &lt;class name=&quot;com.dk.assignments.TestProblemStatementTwo&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Gradle test --&gt;
 &lt;/suite&gt; &lt;!-- Gradle suite --&gt;
@@ -186,14 +196,14 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'failedPaymentFlow')
-data.setCell(0, 2, 'com.dk.ui.TestOrder')
-data.setCell(0, 3, 8435);
+data.setCell(0, 1, 'CompareApiResponse')
+data.setCell(0, 2, 'com.dk.assignments.TestProblemStatementTwo')
+data.setCell(0, 3, 17852);
 window.suiteTableData['Gradle_suite']= { tableData: data, tableDiv: 'times-div-Gradle_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 8 seconds</span>
+              <span class="suite-total-time">Total running time: 17 seconds</span>
               <div id="times-div-Gradle_suite">
               </div> <!-- times-div-Gradle_suite -->
             </div> <!-- times-div -->
@@ -219,23 +229,13 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.dk.ui.TestOrder</div> <!-- chronological-class-name -->
-              <div class="configuration-suite before">
-                <span class="method-name">beforeSuite</span>
-                <span class="method-start">0 ms</span>
-              </div> <!-- configuration-suite before -->
-              <div class="configuration-method before">
-                <span class="method-name">beforeMethod</span>
-                <span class="method-start">37 ms</span>
-              </div> <!-- configuration-method before -->
+              <div class="chronological-class-name">com.dk.assignments.TestProblemStatementTwo</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">failedPaymentFlow({cardCvv=123, cardNumber=4811111111111113, cardExpiryDate=02/21, bankOTP=112233})</span>
-                <span class="method-start">12121 ms</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">CompareApiResponse</span>
+                <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">afterMethod</span>
-                <span class="method-start">20557 ms</span>
-              </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->
